@@ -1,3 +1,72 @@
+@media screen and (max-width: 2000px){
+    main {
+         width: 70% !important;       
+
+    }
+    main .post-title .text {
+        width: 50%;
+    }
+
+    .posts{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .post-holder  {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto  auto auto ;
+    }
+    
+   
+
+}
+@media screen and (max-width: 1400px){
+    main {
+        width: 80% !important;
+        
+
+    }
+    main .post-title {
+         box-sizing: border-box;
+          
+    }
+    main .post-title .text {
+        width: 50%;
+    }
+    footer{
+        width: 80%;
+    }
+    .contact {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    footer .contact .footer-title {
+        margin: 0 7%;
+        font-size: 35px;     
+      
+    }
+    footer .contact  .input {
+        margin: 0 7.5%;
+        width: 85%;
+        justify-content:   space-between;
+
+    }
+    footer .contact  .input  input {
+        width: 80%;
+    }
+    footer .contact  .input  button {
+        width: 15%;
+    }
+ 
+  
+
+    
+    
+   
+
+}
 @media screen and (max-width: 1200px){
     header {
         width: 100%;
@@ -25,7 +94,7 @@
     }
 
     main {
-        width: 90%;
+        width: 80% !important;
         
 
     }
@@ -41,6 +110,49 @@
     .box-container {
         height: 40px;
     }
+    .posts{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .post-holder  {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto  auto  ;
+    }
+
+    
+    footer {
+        width: 80% !important;
+        height: 200px;
+    }
+    footer .contact  {
+        width: 100%;
+        margin: 50px 0;
+        display: flex;
+        flex-direction: column;
+
+    }
+    footer .contact .footer-title p {
+        font-size: 25px;
+        margin: 0 4%;
+    }
+    footer .contact .input{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        line-break: 2.5 !important;
+    }
+    footer .contact .input input{
+        width: 65%;
+        margin: 0 auto;
+    }
+    footer .contact .input button{
+        width: 65%;
+        margin: 2% auto;
+    }
+
+    
 
 
 }
@@ -86,6 +198,46 @@
     .box-container {
         height: 30px;
     }
+    .posts{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .post-holder  {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto  auto ;
+    }
+
+    footer {
+        width: 80% !important;
+        height: 200px;
+    }
+    footer .contact  {
+        width: 100%;
+        margin: 50px 0;
+        display: flex;
+        flex-direction: column;
+
+    }
+    footer .contact .footer-title p {
+        font-size: 25px;
+        margin: 0 1%;
+    }
+    footer .contact .input{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        line-break: 2.5 !important;
+    }
+    footer .contact .input input{
+        width: 75%;
+        margin: 0 auto;
+    }
+    footer .contact .input button{
+        width: 75%;
+        margin: 5% auto;
+    }
 
     
 }
@@ -124,6 +276,46 @@
     .box-container {
         height: 40px;
     }
+    .posts{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .post-holder  {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto  ;
+    }
+    footer {
+        width: 80% !important;
+        height: 200px;
+    }
+    footer .contact  {
+        width: 100%;
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+
+    }
+    footer .contact .footer-title p {
+        font-size: 25px;
+        margin: 0 60px;
+    }
+    footer .contact .input{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        line-break: 2.5 !important;
+    }
+    footer .contact .input input{
+        width: 90%;
+        margin: 0 auto;
+    }
+    footer .contact .input button{
+        width: 90%;
+        margin: 5% auto;
+    }
+     
 
 }
 @media screen and (max-width: 600px){
@@ -162,6 +354,47 @@
         height: 35px;
     }
 
+    .posts{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .post-holder  {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto  ;
+    }
+    footer {
+        width: 80% !important;
+        height: 200px;
+    }
+    footer .contact  {
+        width: 100%;
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+
+    }
+    footer .contact .footer-title p {
+        font-size: 25px;
+    }
+    footer .contact .input{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        line-break: 2.5 !important;
+    }
+    footer .contact .input input{
+        width: 90%;
+        margin: 0 auto;
+    }
+    footer .contact .input button{
+        width: 90%;
+        margin: 5% auto;
+    }
+     
+
+
 }
 @media screen and (max-width: 500px){
      header {
@@ -198,7 +431,45 @@
     .box-container {
         height: 30px;
     }
+    .posts{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .post-holder  {
+        width: 100%;
+        display: grid;
+         grid-template-columns: auto;
+    }
 
+    footer {
+        width: 80% !important;
+        height: 200px;
+    }
+    footer .contact  {
+        width: 100%;
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+
+    }
+    footer .contact .footer-title p {
+        font-size: 25px;
+    }
+    footer .contact .input{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        line-break: 2.5 !important;
+    }
+    footer .contact .input input{
+        width: 90%;
+        margin: 0 auto;
+    }
+    footer .contact .input button{
+        width: 90%;
+        margin: 5% auto;
+    }
 
 
 }
